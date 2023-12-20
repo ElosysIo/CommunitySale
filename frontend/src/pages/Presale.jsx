@@ -21,7 +21,6 @@ import { prepareWriteContract, readContracts,readContract, waitForTransaction, w
 import { daysUntilWithdrawal, formatNumber as formatAsMK } from "../utils/methods";
 import { ContractFunctionExecutionError, InvalidAddressError, formatUnits, parseEther, parseUnits } from "viem";
 import { getTransactionReceipt, publicClient } from "../wagmi-interaction/client";
-import TokenABI from "../wagmi-interaction/tokenABI.json";
 import { toast } from "react-toastify";
 import Status from "../components/Status";
 import Loading from "../components/Loading";
